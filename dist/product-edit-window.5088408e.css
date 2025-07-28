@@ -1,0 +1,77 @@
+body {
+  background: #f7f8fa;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.device-card {
+  background: #fff;
+  border-radius: 12px;
+  max-width: 950px;
+  margin: auto;
+  padding: 20px 30px;
+  box-shadow: 0 2px 8px #0000001a;
+}
+
+.device-card__title {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.device-card__grid {
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  display: grid;
+}
+
+@media (width <= 768px) {
+  .device-card__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.device-card__column {
+  flex-direction: column;
+  gap: 12px;
+  display: flex;
+}
+
+.device-card__item {
+  background: #fafafa;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  display: flex;
+}
+
+.device-card__label {
+  color: #555;
+  font-size: 14px;
+}
+
+.device-card__value {
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+}
+
+.device-card__value a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+.device-card__value a:hover {
+  text-decoration: underline;
+}
+
+.device-card__icon {
+  color: #999;
+  cursor: pointer;
+  font-size: 14px;
+}
+/*# sourceMappingURL=product-edit-window.5088408e.css.map */

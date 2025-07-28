@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Editing</title>
+    <link rel="stylesheet" href="./styles.scss" />
+  </head>
+  <body>
+    <form class="product-edit">
+      <header class="product-edit__header">
+        <div class="product-edit__header-left">
+          <h1 class="product-edit__title">G112082</h1>
+          <button type="button" class="product-edit__btn-edit">
+            <svg
+              width="18px"
+              height="18px"
+              aria-label="Edit window"
+              class="p roduct-edit__svg"
+              fill="#fff"
+            >
+              <use href="./images/note-edit-svgrepo-com.svg"></use>
+            </svg>
+            <span>Edit</span>
+          </button>
+        </div>
+
+        <div class="product-edit__controls">
+          <div class="product-edit__navigation">
+            <svg width="30px" height="30px" aria-label="Left">
+              <use href="./images/arrow-prev-svgrepo-com.svg"></use>
+            </svg>
+            <svg width="30px" height="30px" aria-label="Right">
+              <use href="./images/arrow-prev-svgrepo-com (1).svg"></use>
+            </svg>
+          </div>
+          <svg width="30px" height="30px" aria-label="Full screen mode">
+            <use href="./images/maximize-4-svgrepo-com 1.svg"></use>
+          </svg>
+          <svg width="30px" height="30px" aria-label="Close">
+            <use href="./images/close-svgrepo-com.svg"></use>
+          </svg>
+        </div>
+      </header>
+      <section class="product-edit__info">
+        <div class="product-edit__fields"></div>
+        <div class="product-edit__photos"></div>
+      </section>
+      <section class="product-edit__tables"></section>
+      <script type="module" src="./script.ts"></script>
+    </form>
+  </body>
+</html>
